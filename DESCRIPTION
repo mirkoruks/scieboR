@@ -1,0 +1,19 @@
+Package: scieboR
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Mirko", "Ruks",
+      email = "mirko.benjamin.ruks@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Package that allows to interact (upload, download and delete files) with sciebo, a university cloud in Germany
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
