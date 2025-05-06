@@ -8,9 +8,9 @@
 
 The goal of scieboR is to interact with the German university cloud
 [Sciebo](https://hochschulcloud.nrw/). With interact I mean: 1) Upload
-files using `sciebo_upload()`, download files using `sciebo_download()`
-and deleting files using `sciebo_delete()`. Note, this package is not
-officially endorsed.
+files using `sciebo_upload()`, 2) download files using
+`sciebo_download()` and 3) deleting files using `sciebo_delete()`. Note,
+this package is not officially endorsed.
 
 ## Installation
 
