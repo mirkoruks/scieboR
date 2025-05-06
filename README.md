@@ -43,12 +43,12 @@ This is a basic example which shows you how to download a file using
 
     library(scieboR)
     sciebo_download(uni = "uni-bielefeld", # string referring to your affiliation
-                  user = "your_username", # your sciebo user name 
-                  pw = "your_pw", # your sciebo password
-                  overwrite = FALSE, # default: do not overwrite existing files with the same name
-                  sciebo_file = "directory/file.txt", # file in sciebo to be downloaded
-                  local_file = "directory/file.txt" # local destination 
-                  )
+                    user = "your_username", # your sciebo user name 
+                    pw = "your_pw", # your sciebo password
+                    overwrite = FALSE, # default: do not overwrite existing files with the same name
+                    sciebo_file = "directory/file.txt", # file in sciebo to be downloaded
+                    local_file = "directory/file.txt" # local destination 
+                    )
 
 ## Example Delete
 
