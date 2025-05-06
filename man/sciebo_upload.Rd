@@ -2,7 +2,7 @@
 % Please edit documentation in R/sciebo_upload.R
 \name{sciebo_upload}
 \alias{sciebo_upload}
-\title{Uploads files to the sciebo cloud}
+\title{Upload file to Sciebo}
 \usage{
 sciebo_upload(
   uni = "uni-bielefeld",
@@ -27,8 +27,5 @@ sciebo_upload(
 \item{local_file}{a string with the directory and name of your local file ("directory/file.txt")}
 }
 \description{
-Uploads files to the sciebo cloud
-}
-\examples{
-sciebo_upload(uni = "uni-bielefeld", user = "myusername", pw = "mypw", overwrite = FALSE, sciebo_file = "test/sciebofile.txt", local_file = "test/localfile.txt")
+Upload file to Sciebo
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/sciebo_delete.R
 \name{sciebo_delete}
 \alias{sciebo_delete}
-\title{Title}
+\title{Delete file in Sciebo}
 \usage{
 sciebo_delete(uni = "uni-bielefeld", user, pw, sciebo_file = NULL)
 }
@@ -16,8 +16,5 @@ sciebo_delete(uni = "uni-bielefeld", user, pw, sciebo_file = NULL)
 \item{sciebo_file}{a string with the directory and name of the file to be deleted from sciebo ("directory/file.txt")}
 }
 \description{
-Title
-}
-\examples{
-sciebo_upload(uni = "uni-bielefeld", user = "myusername", pw = "mypw", sciebo_file = "test/sciebofile.txt")
+Delete file in Sciebo
 }

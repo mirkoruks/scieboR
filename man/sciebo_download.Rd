@@ -2,7 +2,7 @@
 % Please edit documentation in R/sciebo_download.R
 \name{sciebo_download}
 \alias{sciebo_download}
-\title{Downloads files to the sciebo cloud}
+\title{Downloads file from Sciebo}
 \usage{
 sciebo_download(
   uni = "uni-bielefeld",
@@ -27,8 +27,5 @@ sciebo_download(
 \item{local_file}{a string with the directory and name of your local file ("directory/file.txt")}
 }
 \description{
-Downloads files to the sciebo cloud
-}
-\examples{
-sciebo_upload(uni = "uni-bielefeld", user = "myusername", pw = "mypw", overwrite = FALSE, sciebo_file = "test/sciebofile.txt", local_file = "test/localfile.txt")
+Downloads file from Sciebo
 }
